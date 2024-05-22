@@ -1,0 +1,51 @@
+[
+    {
+      "id": "1",
+      "img": "https://images.pexels.com/photos/6690916/pexels-photo-6690916.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "title": "Grupo 1",
+      "description": "Gerentes",
+      "price": 500.00,
+      "createdAt": "2024-05-13T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "img": "https://images.pexels.com/photos/18463824/pexels-photo-18463824/free-photo-of-fotografia-animal-fotografia-de-animais-passaro-ave.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "title": "Grupo 2",
+      "description": "Operadores de caixa",
+      "price": 300.00,
+      "createdAt": "2022-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "img": "https://images.pexels.com/photos/16061696/pexels-photo-16061696/free-photo-of-outono-declinio-nublado-campo.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "title": "Grupo 3",
+      "description": "Equipe de TI",
+      "price": 350.00,
+      "createdAt": "2022-02-15T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "img": "https://images.pexels.com/photos/17088715/pexels-photo-17088715/free-photo-of-abandonado-perdido-arquitetura-arte.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "title": "Grupo 4",
+      "description": "Cozinha",
+      "price": 468.23,
+      "createdAt": "2022-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "img": "https://images.pexels.com/photos/10964535/pexels-photo-10964535.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "title": "Grupo 5",
+      "description": "Faxineiros",
+      "price": 256.98,
+      "createdAt": "2022-04-10T00:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "img": "https://images.pexels.com/photos/10155090/pexels-photo-10155090.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "title": "Grupo 6",
+      "description": "CEO",
+      "price": 874.56,
+      "createdAt": "2022-03-25T00:00:00.000Z"
+    }
+  ]
+  

@@ -1,0 +1,99 @@
+.container{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .addButton{
+    padding: 10px;
+    background-color: #5d57c9;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .table{
+    width: 100%;
+  }
+
+
+  
+  .table td{
+    padding: 10px;
+  }
+  
+  .group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .productImage{
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .buttons{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .view{
+    background-color: teal;
+  }
+  
+  .delete{
+    background-color: crimson;
+  }
+
+  @media (max-width: 1070px){
+    .table{
+      font-size: .9rem;
+    }
+  }
+  @media (max-width: 920px){
+    .table{
+      font-size: .8rem;
+    }
+  }
+
+  @media  (max-width: 620px){
+
+    /* .table, .button {
+      font-size: .8rem;
+    } */
+    .addButton{
+      font-size: .7rem;
+    }
+    .delete, .description{
+      display: none;
+    }
+
+    
+  }
+
+  @media (max-width: 375px){
+
+    .table td:nth-of-type(3){
+      display: none;
+    }
+    
+  }

@@ -1,0 +1,56 @@
+.main {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolTipButton {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.alert {
+  color: red;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.addButton {
+  padding: 10px;
+  background-color: #5d57c9;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  color: white;
+  padding: 10px;
+}
+
+.table tbody tr td:nth-child(2){
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+.button {
+  background-color: var(--bgSoft);
+  color: white;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}

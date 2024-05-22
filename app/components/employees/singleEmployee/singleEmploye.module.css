@@ -1,0 +1,54 @@
+.section {
+    width: 100%;
+    background-color: var(--bgSoft);
+}
+
+.top{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.toolTipButton{
+    background-color: transparent;
+    border: none;
+}
+
+.top .alert{
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.section h2 {
+    margin-bottom: 1.5rem;
+}
+.userDetails, .address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userDetails > div, .address > div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    grid-auto-flow: row;
+}
+
+.address{
+    margin-top: 2rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.field input:disabled {
+    padding: .5rem;
+    background-color: var(--bg);
+    color: var(--text);
+}
