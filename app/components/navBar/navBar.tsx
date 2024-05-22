@@ -27,7 +27,7 @@ const NavBar = () => {
 
             <div className={styles.title}>{conditions()}</div>
 
-            <div className={styles.menu}>
+            {/* <div className={styles.menu}>
                 <div className={styles.search}>
                     <MdSearch />
                     <input type="text" placeholder='Search...' className={styles.input} />
@@ -37,7 +37,7 @@ const NavBar = () => {
                     <MdNotifications size={20} />
                     <MdPublic size={20} />
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )

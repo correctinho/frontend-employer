@@ -66,6 +66,11 @@ const menuItems = [
                 path: "/dashboard/colaboradores/grupos",
                 icon: <MdShoppingBag />,
             },
+            {
+                title: "Benefícios",
+                path: "/dashboard/colaboradores/grupos",
+                icon: <MdShoppingBag />,
+            },
 
         ],
     },

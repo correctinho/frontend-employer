@@ -113,7 +113,7 @@ export default async function EcommerceSettings({ searchParams }: any) {
                                 <div className={styles.buttons}>
                                     <Link href={`/dashboard/colaboradores/lista/${employee.uuid}`}>
                                         <button className={`${styles.button} ${styles.view}`}>
-                                            Visualizar
+                                            Ver mais
                                         </button>
                                     </Link>
 

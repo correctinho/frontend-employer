@@ -13,7 +13,7 @@
     text-transform: capitalize;
 }
 
-.menu{
+/* .menu{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -26,14 +26,14 @@
     background-color: #2e374a;
     padding: 10px;
     border-radius: 10px;
-}
+} */
 
 .input{
     background-color: transparent;
     border: none;
     color: var(--text);
 }
-.icons{
+/* .icons{
     display: flex;
     gap: 15px;
-}
+} */

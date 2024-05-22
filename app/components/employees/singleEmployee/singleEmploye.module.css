@@ -33,8 +33,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-    grid-auto-flow: row;
+    grid-gap: 1rem;
 }
 
 .address{
@@ -51,4 +50,22 @@
     padding: .5rem;
     background-color: var(--bg);
     color: var(--text);
+}
+
+
+@media (max-width:680px){
+    .userDetails > div, .address > div{
+        grid-template-columns: repeat(2, .5fr);
+
+    }
+}
+
+@media (max-width: 470px){
+    .section{
+        font-size: .8rem;
+    }
+    .userDetails > div, .address > div{
+        grid-template-columns: repeat(1, 3fr);
+
+    }
 }
