@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import { ToastContainer } from "react-toastify";
 
 interface PrivateLayoutProps {
     children: ReactNode

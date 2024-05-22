@@ -32,7 +32,7 @@ const UsersPage = async ({ searchParams }: any) => {
     <div className={styles.container}>
       <div className={styles.top}>
         <Search placeholder="Buscar por usuário..." />
-        <Link href="/dashboard/users/add">
+        <Link href="/dashboard/usuarios/adicionar">
           <button className={styles.addButton}>Adicionar novo</button>
         </Link>
       </div>

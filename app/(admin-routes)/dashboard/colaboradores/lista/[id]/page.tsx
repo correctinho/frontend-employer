@@ -6,7 +6,6 @@ const SingleUserPage = async ({ params }: any) => {
   const { id } = params
 
   const employeeDetails = await getSingleEmployee(id)
-  console.log(employeeDetails.data)
   return (
     <SingleEmployee 
       data={employeeDetails.data}
